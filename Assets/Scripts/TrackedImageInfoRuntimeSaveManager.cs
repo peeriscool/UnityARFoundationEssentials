@@ -68,8 +68,8 @@ public class TrackedImageInfoRuntimeSaveManager : MonoBehaviour
         debugLog.text += $"trackImageManager.trackables.count ({trackImageManager.trackables.count})\n";
         debugLog.text += $"trackImageManager.trackedImagePrefab.name ({trackImageManager.trackedImagePrefab.name})\n";
         debugLog.text += $"trackImageManager.maxNumberOfMovingImages ({trackImageManager.maxNumberOfMovingImages})\n";
-        debugLog.text += $"trackImageManager.supportsMutableLibrary ({trackImageManager.subsystem.SubsystemDescriptor.supportsMutableLibrary})\n";
-        debugLog.text += $"trackImageManager.requiresPhysicalImageDimensions ({trackImageManager.subsystem.SubsystemDescriptor.requiresPhysicalImageDimensions})\n";
+        debugLog.text += $"trackImageManager.supportsMutableLibrary ({trackImageManager.subsystem.subsystemDescriptor.supportsMutableLibrary})\n";
+        debugLog.text += $"trackImageManager.requiresPhysicalImageDimensions ({trackImageManager.subsystem.subsystemDescriptor.requiresPhysicalImageDimensions})\n";
     }
     void OnDisable()
     {
@@ -114,8 +114,8 @@ public class TrackedImageInfoRuntimeSaveManager : MonoBehaviour
             debugLog.text += $"trackImageManager.trackables.count ({trackImageManager.trackables.count})\n";
             debugLog.text += $"trackImageManager.trackedImagePrefab.name ({trackImageManager.trackedImagePrefab.name})\n";
             debugLog.text += $"trackImageManager.maxNumberOfMovingImages ({trackImageManager.maxNumberOfMovingImages})\n";
-            debugLog.text += $"trackImageManager.supportsMutableLibrary ({trackImageManager.subsystem.SubsystemDescriptor.supportsMutableLibrary})\n";
-            debugLog.text += $"trackImageManager.requiresPhysicalImageDimensions ({trackImageManager.subsystem.SubsystemDescriptor.requiresPhysicalImageDimensions})\n";
+            debugLog.text += $"trackImageManager.supportsMutableLibrary ({trackImageManager.subsystem.subsystemDescriptor.supportsMutableLibrary})\n";
+            debugLog.text += $"trackImageManager.requiresPhysicalImageDimensions ({trackImageManager.subsystem.subsystemDescriptor.requiresPhysicalImageDimensions})\n";
         }
         catch(Exception e)
         {
